@@ -15,6 +15,12 @@ body {
   font-family: 'Molengo', 'Average', sans-serif;
   background-color: #F0EAEA;
 }
+ol.b {list-style-type: lower-aplha;
+
+}
+ul.a { list-style-type: sqaure;
+
+}
 
 
 .btn {
