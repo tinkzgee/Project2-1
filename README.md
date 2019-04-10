@@ -1,1 +1,1 @@
-# TeamSpicy
+TeamSpicy
