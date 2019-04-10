@@ -16,6 +16,12 @@ body {
   font-family: 'Molengo', 'Average', sans-serif;
   background-color: #F0EAEA;
 }
+ol.b {list-style-type: lower-aplha;
+
+}
+ul.a { list-style-type: sqaure;
+
+}
 
 h1 {
   font-size: 1.667em; /* 36.674px */
