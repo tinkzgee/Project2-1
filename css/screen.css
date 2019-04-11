@@ -83,7 +83,7 @@ ul {
   text-align: left;
 }
 #logo {
-  width: 90%;
+  width: 30%;
   /*height: 4.632em; */
   /* 101.913px */
 }
@@ -142,6 +142,11 @@ input[type=radio] {
 /* Mobile first queries */
 
 @media screen and (min-width: 360px) {
+  #logo {
+  width: 25%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
   form {
     width: 90%;
   }
@@ -171,6 +176,11 @@ input[type=radio] {
   }
 }
 @media screen and (min-width: 480px) {
+    #logo {
+  width: 30%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
   form {
     margin: 0 0 1em 0;
     /* 22px */
@@ -189,6 +199,11 @@ input[type=radio] {
   }
 }
 @media screen and (min-width: 768px) {
+    #logo {
+  width: 35%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
   html {
     box-sizing: content-box;
     font-size: 2em;
@@ -213,6 +228,11 @@ input[type=radio] {
   }
 }
 @media screen and (min-width: 1024px) {
+    #logo {
+  width: 40%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
   html {
     box-sizing: content-box;
     font-size: 2.8em;
@@ -243,6 +263,11 @@ input[type=radio] {
   }
 }
 @media screen and (min-width: 1200px) {
+  #logo {
+  width: 40%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
   html {
     box-sizing: content-box;
     font-size: 2.292em;
