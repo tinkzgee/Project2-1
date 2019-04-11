@@ -73,6 +73,11 @@ h1{
   font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
+ul{
+
+  text-align: left;
+}
+
 #logo {
   width: 90%;
   /*height: 4.632em; */ /* 101.913px */
