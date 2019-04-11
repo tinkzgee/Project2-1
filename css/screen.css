@@ -37,7 +37,7 @@ ul.a { list-style-type: sqaure;
   background-color: RoyalBlue;
 }
 
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -74,6 +74,7 @@ h1{
 }
 
 #logo {
+  width: 100%;
   width: 90%;
   /*height: 4.632em; */ /* 101.913px */
 }
