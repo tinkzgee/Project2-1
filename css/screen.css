@@ -1,5 +1,4 @@
 
-
 html{
   font-size: 1.375em; /* 22px */
   line-height: 1.2em; /* 26px / ~ 120% */
@@ -23,14 +22,59 @@ ul.a { list-style-type: sqaure;
 
 }
 
-h1 {
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("../images/2.jpg");
+  color: white;
+  text-align: left;
+  background-color: #cccccc;
+}
+
+h1{
   font-size: 1.667em; /* 36.674px */
   line-height: 1.2em; /* 26px */
   font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
 #logo {
-  width: 100%;
+  width: 90%;
   /*height: 4.632em; */ /* 101.913px */
 }
 
