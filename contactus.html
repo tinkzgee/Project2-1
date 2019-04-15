@@ -1,61 +1,41 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> ISUD </title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" media="screen" href="resetCSS/reset.css"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="css/screen.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="js/site.js"></script>
-    <script src="js/map.js"></script>
-  </head>
+<head>
+  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <link href="resetCSS/reset.css" media="screen" rel="stylesheet">
+  <meta content="width=device-width,initial-scale=1.0,shrink-to-fit=no" name="viewport">
+  <link href="css/screen.css" media="screen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+  <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+  <script src="js/site.js">
+  </script>
+</head>
 <body>
-<!-- Navigation -->
-  <nav class="w3-bar w3-black">
-    <a href="index.html" class="w3-button w3-bar-item">Home</a>
-    <a href="news.index" class="w3-button w3-bar-item">Events</a>
-    <a href="about.index" class="w3-button w3-bar-item">About Us</a>
-    <a href="contactus.html" class="w3-button w3-bar-item">Contact Us</a>
+  <nav class="w3-bar w3-blue">
+    <a class="w3-button w3-bar-item" href="index.html">Home</a> 
+    <a class="w3-button w3-bar-item" href="about.html">About Us</a> 
+    <a class="w3-button w3-bar-item" href="news.html">ISUD Anouncements and Events</a> 
+    <a class="w3-button w3-bar-item" href="contactus.html">Contact Us</a>
   </nav>
-
-   <form class="form-container" name="myForm" action= "#null" method="get" onsubmit="return validateForm()" autocomplete="on">
+  <form action="#null" autocomplete="on" class="form-container" id="myForm" method="get" name="myForm" onsubmit="return validateForm()">
     <h1>Contact Us</h1>
     <h4>Thank you for your interest in ISUD. To contact us please reach us via:</h4>
-      <ul>
-        <li>
-          <label >FULL NAME*</label>
-          <input type="text" name="name" id="name" class="icon-1">
-        </li>
-        <li>
-          <label >EMAIL*</label>
-          <input type="text" name="email" id="email" class="icon-3">
-        </li>
-        <li>
-          <label >Subject(Optional) </label>
-          <input type="text" name="Phone" id="Phone" class="icon-3">
-        </li>
-        <li class="list">
-        <label> Message </label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" width="max-width" height="200px">
-          </textarea>
-        <input type="submit" value="Sign-up" class="submit-btn">
-        </li>
-      </ul>
-    </form>
-
-    <div id="map">
-      <div id="canvas"></div>
-    </div>
-
-    <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-      <a href="#"><i class="fa fa-facebook-official"></i></a>
-    </footer>
-  </body>
+    <ul>
+      <li><label>FULL NAME*</label> <input class="icon-1" id="name" name="name" type="text"></li>
+      <li><label>EMAIL*</label> <input class="icon-3" id="email" name="email" type="text"></li>
+      <li><label>Subject(Optional)</label> <input class="icon-3" id="Phone" name="Phone" type="text"></li>
+      <li class="list"><label>Message</label> 
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <input class="submit-btn" type="submit" value="Sign-up"></li>
+    </ul>
+  </form>
+  <div id="map">
+    <div id="canvas"></div>
+  </div>
+  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+  </footer>
+</body>
 </html>
-
-
