@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact Us</title>
+  <title>ISUD</title>
   <meta charset="UTF-8">
   <link href="resetCSS/reset.css" media="screen" rel="stylesheet">
   <meta content="width=device-width,initial-scale=1.0,shrink-to-fit=no" name="viewport">
@@ -9,33 +9,64 @@
   <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
-  <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
   <script src="js/site.js">
   </script>
 </head>
 <body>
-  <nav class="w3-bar w3-blue">
-    <a class="w3-button w3-bar-item" href="index.html">Home</a> 
-    <a class="w3-button w3-bar-item" href="about.html">About Us</a> 
-    <a class="w3-button w3-bar-item" href="news.html">ISUD Anouncements and Events</a> 
-    <a class="w3-button w3-bar-item" href="contactus.html">Contact Us</a>
+
+  <!-- 
+    <nav class="nav">
+    <a href="index.html">HOME</a> 
+    <a href="about.html">ABOUT US</a> 
+    <a href="news.html">NEWS AND EVENTS</a> 
+    <a href="contactus.html">CONTACT US </a>
   </nav>
-  <form action="#null" autocomplete="on" class="form-container" id="myForm" method="get" name="myForm" onsubmit="return validateForm()">
-    <h1>Contact Us</h1>
-    <h4>Thank you for your interest in ISUD. To contact us please reach us via:</h4>
-    <ul>
-      <li><label>FULL NAME*</label> <input class="icon-1" id="name" name="name" type="text"></li>
-      <li><label>EMAIL*</label> <input class="icon-3" id="email" name="email" type="text"></li>
-      <li><label>Subject(Optional)</label> <input class="icon-3" id="Phone" name="Phone" type="text"></li>
-      <li class="list"><label>Message</label> 
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <input class="submit-btn" type="submit" value="Sign-up"></li>
-    </ul>
+
+ -->
+
+
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT US</a>
+  <div class="dropdown">
+    <button class="dropbtn" > NEWS AND EVENTS <i class="fa fa-caret-down"></i> </button>
+    <div class="dropdown-content">
+      <a href="news.html"> NEWS</a>
+      <a href="videos.html"> VIDEO </a>
+      <a href="food.html"> FOOD</a>
+      <a href="2018.html"> 2018 FESTIVAL </a>
+      <a href="2016.html"> 2016 FESTIVAL </a>
+      <a href="generaladvice.html"> RECOMMENDATIONS</a>
+      <a href="historical.html"> HISTORY</a>
+    </div>
+  </div> 
+  <a href="contactus.html">CONTACT US </a>
+</div>
+
+  <form action="#null" autocomplete="on" class="form-container" id="myForm" method="get"
+    name="myForm" onsubmit="return validateForm()">
+    <p> <h1>Contact Us</h1></p>
+    <p>
+      <h4>Thank you for your interest in ISUD. To contact us please reach us via filling out this form. We will make sure to call you as soon as possible.
+      </h4>
+    </p>
+    <div>
+      <ul>
+        <li><label>FULL NAME*</label> <input class="icon-1" id="name" name="name" type="text"></li>
+        <li><label>EMAIL*</label> <input class="icon-3" id="email" name="email" type="text"></li>
+        <li><label>Subject(Optional)</label> <input class="icon-3" id="Phone" name="Phone" type="text"></li>
+        <li><label>Message(Optional)</label>
+          <textarea class="icon-1" name="subject" placeholder="Write something..."> </textarea>
+          <input class="icon-3" type="submit" value="Sign-up">
+        </li>
+      </ul>
+    </div>
   </form>
   <div id="map">
     <div id="canvas"></div>
   </div>
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-    <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <footer class="">
+    <a href="https://www.facebook.com/ISUDXIIWorldCongress/"> <p class="fb">Facebook</p> </a>
   </footer>
 </body>
 </html>
