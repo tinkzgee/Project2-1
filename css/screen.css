@@ -23,62 +23,12 @@ body {
   font-family: 'Molengo', 'Average', sans-serif;
   background-color: #F0EAEA;
 }
-ol.b {
-  list-style-type: lower-aplha;
-}
-ul.a {
-  list-style-type: sqaure;
-}
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+/*
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: RoyalBlue;
-}
-* {
-  box-sizing: border-box;
-}
-/* Create two equal columns that floats next to each other */
+*/
 
 .column {
   float: right;
@@ -178,6 +128,9 @@ input[type=radio] {
   width: 10%;
   height: 0.825em;
 }
+
+
+
 /* Mobile first queries */
 
 @media screen and (min-width: 360px) {
@@ -185,6 +138,9 @@ input[type=radio] {
   width: 25%;
   /*height: 4.632em; */
   /* 101.913px */
+}
+body{
+  font-size: 1em;
 }
   form {
     width: 90%;
@@ -214,6 +170,9 @@ input[type=radio] {
     width: 15%;
   }
 }
+
+
+
 @media screen and (min-width: 480px) {
     #logo {
   width: 30%;
@@ -237,6 +196,10 @@ input[type=radio] {
     width: 9%;
   }
 }
+
+
+
+
 @media screen and (min-width: 768px) {
     #logo {
   width: 35%;
@@ -266,6 +229,11 @@ input[type=radio] {
     width: 9%;
   }
 }
+
+
+
+
+
 @media screen and (min-width: 1024px) {
     #logo {
   width: 40%;
@@ -301,6 +269,10 @@ input[type=radio] {
     width: 10%;
   }
 }
+
+
+
+
 @media screen and (min-width: 1200px) {
   #logo {
   width: 40%;
@@ -346,15 +318,27 @@ table {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button, input, optgroup, select, textarea {
+button, input, optgroup, select {
   font-family: sans-serif;
   /* 1 */
   font-size: 100%;
   /* 1 */
   line-height: 1.15;
   /* 1 */
-  margin: 0;
+  margin: 10px;
   /* 2 */
+}
+textarea{
+  border: none;
+  background-color: #D4B6B6;
+  font-family: 'Molengo', 'Average', sans-serif;
+  padding-left: 0.297em;
+  /* 4.749px */
+  margin-bottom: 0.495em;
+  /* 7.917px */
+  width: 100%;
+
+  height: 200px;
 }
 /**
  * Show the overflow in IE.
@@ -364,6 +348,7 @@ button, input, optgroup, select, textarea {
 button, input {
   /* 1 */
   overflow: visible;
+  vertical-align:middle;
 }
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -388,13 +373,158 @@ img, audio, video {
   display: block;
   max-width: 100%;
 }
+
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 /* ===== BASE STYLES ===== */
+
 
 /*
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-
-#list:hover {
-  background-color: yellow;
+.btn-group{
+ background-color: #F0EAEA;
+  border: 1px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
 }
+.btn-group:hover {
+  background-color: orange;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+.fb {
+  background: #4661b0; /* make it "Facebook blue" */
+  text-indent: -999em; /* Back the actual text in the paragraph tag out of the element */
+  width: 100px; /* Make it nice and big */
+  height: 110px; /* The tag is 10px larger because of how we're handling the borders below */
+  border-radius: 3px; /* for that oh so important modern look */
+  position: relative; /* so we can position our other elements absolutely */
+  overflow: hidden; /* so we can hide any overflow those elements will have */
+  border: 15px solid #4661b0; /* so we can make it look like the F is not butting up against the right side of the box */
+  border-bottom: 0; /* removing the border here though, because the F does touch the bottom of the box */
+}
+
+.fb:before {
+  content: "/20"; /* Psuedo elements need something for content, this means a blank space */
+  position: absolute; /* So we can position it exactly where we want it */
+  background: #4661b0; /* make the box the same Facebook blue */
+  width: 40px; /* setup the right width, which actually extends the box outside of the containing element (along with our positioning below) */
+  height: 90px; /* this also extends the trunk outside of the main box */
+  bottom: -30px; /* as mentioned above, we pull the box we're using to create the trunk of the F down to hide some of it, because it will have rounded corners on all sides */
+  right: -37px; /* similar to what we're doing with bottom above */
+  border: 20px solid white; /* make the remaining visible border white and thick enough to look right */
+  border-radius: 25px; /* now give the top right visible corner the necessary curve */
+}
+
+
+
+.fb:after {
+  content: "/20"; /* again, pseudo elements need content to be visible */
+  position: absolute;  /* and we're going to want to position absolutely */
+  width: 55px;  /* the desired width of the box to make the bar long enough */
+  top: 50px;  /* set it in the proper location */
+  height: 20px;  /* make it thick enough */
+  background: white;  /* and the right color */
+  right: 5px;  /* then back it up from the edge of the containing block a bit */
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  height: 10px;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
