@@ -510,18 +510,33 @@ img, audio, video {
 
 
 
-.navbar {
+.navbar ul{
   overflow: hidden;
   background-color: #333;
-}
-
-.navbar a {
   float: left;
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
 
 .dropdown {
@@ -541,9 +556,8 @@ img, audio, video {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+
+
 
 .dropdown-content {
   display: none;
