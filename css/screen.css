@@ -6,7 +6,7 @@ html {
   padding: 1.2em;
   /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  /*border: solid #F6A740;
+  /*border: solid #968F9D;
   border-width: thick;*/
 }
 
@@ -22,92 +22,20 @@ body {
   padding: 1em;
   /* 22px */
   font-family: 'Molengo', 'Average', sans-serif;
-  background-color: #F0EAEA;
+  background-color: #DAD6DD;
 }
 
-/*
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown-content a:hover {background-color: #ddd;}
-/*
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: RoyalBlue;
-}
-* {
-  box-sizing: border-box;
-}
-/* Create two equal columns that floats next to each other */
-
-.column {
-  float: right;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
-}
-.column1 {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
-}
-/* Clear floats after the columns */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .footer {
-  position: fixed;
+  height: 15%;
   left: 0;
   bottom: 0;
   width: 100%;
   background-image: url("../images/2.jpg");
   color: white;
   text-align: left;
-  background-color: #cccccc;
+  background-color: #AAA4B0;
 }
 h1 {
   font-size: 1.667em;
@@ -125,6 +53,7 @@ ul {
   /* 101.913px */
 }
 p {
+  font-size: 12;
   margin-top: 0.6em;
   /* 13.197px */
   margin-bottom: 0.6em;
@@ -141,7 +70,7 @@ label {
 }
 input[type=text] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: #BBACC8;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -151,7 +80,6 @@ input[type=text] {
 }
 input[type=email] {
   border: none;
-  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -169,10 +97,10 @@ input[type=submit] {
   /* 4.749px */
   padding-right: 0.297em;
   /* 4.749px */
-  background-color: #D4B6B6;
+  background-color: #A28DB4;
 }
 input[type=radio] {
-  background-color: #D4B6B6;
+  
   width: 10%;
   height: 0.825em;
 }
@@ -343,6 +271,7 @@ body{
     width: 100%;
   }
 }
+
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
@@ -377,7 +306,7 @@ button, input, optgroup, select {
 }
 textarea{
   border: none;
-  background-color: #D4B6B6;
+  background-color: #BBACC8;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -442,23 +371,11 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-.btn-group{
- background-color: #F0EAEA;
-  border: 1px;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
-}
-.btn-group:hover {
-  background-color: orange;
-}
+
+
 
 .btn {
-  background-color: DodgerBlue;
+  background-color: #A28DB4;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -466,7 +383,7 @@ img, audio, video {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: #BBACC8;
 }
 * {
   box-sizing: border-box;
