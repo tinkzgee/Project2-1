@@ -416,7 +416,7 @@ img, audio, video {
   float: left;
 }
 .btn-group:hover {
-  background-color: orange;
+  background-color: gray;
 }
 
 .btn {
@@ -428,7 +428,7 @@ img, audio, video {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: gray;
 }
 * {
   box-sizing: border-box;
@@ -528,7 +528,7 @@ img, audio, video {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: gray;
 }
 
 .dropdown:hover .dropdown-content {
