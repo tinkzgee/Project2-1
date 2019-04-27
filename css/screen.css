@@ -1,17 +1,15 @@
-/* ===== LAYOUT STYLES ====== */
-
 html {
-  font-size: 1.375em;
+  font-size: 1em;
   /* 22px */
-  line-height: 1.2em;
+  line-height: 1em;
   /* 26px / ~ 120% */
   padding: 1.2em;
   /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  /*border: solid #968F9D;
+  /*border: solid #F6A740;
   border-width: thick;*/
+   background-image: url("/images/1111.jpg");
 }
-
 img {
   width: 100%;
   height: auto;
@@ -24,20 +22,53 @@ body {
   padding: 1em;
   /* 22px */
   font-family: 'Molengo', 'Average', sans-serif;
-  background-color: #DAD6DD;
+  background-image: url("1111.jpg");
+
 }
 
+.text{
+ float: center;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*
 
 
+*/
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .footer {
-  height: 15%;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("../images/2.jpg");
+  background-image: url("1111.jpg");
   color: white;
   text-align: left;
-  background-color: #AAA4B0;
+  background-color: #cccccc;
 }
 h1 {
   font-size: 1.667em;
@@ -55,7 +86,6 @@ ul {
   /* 101.913px */
 }
 p {
-  font-size: 12;
   margin-top: 0.6em;
   /* 13.197px */
   margin-bottom: 0.6em;
@@ -72,7 +102,7 @@ label {
 }
 input[type=text] {
   border: none;
-  background-color: #BBACC8;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -82,6 +112,7 @@ input[type=text] {
 }
 input[type=email] {
   border: none;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -99,58 +130,39 @@ input[type=submit] {
   /* 4.749px */
   padding-right: 0.297em;
   /* 4.749px */
-  background-color: #A28DB4;
+  background-color: #D4B6B6;
 }
 input[type=radio] {
-  
+  background-color: #D4B6B6;
   width: 10%;
   height: 0.825em;
 }
 
 
+/* Main picture for the home menu. */
 
 
-
-
-
-/* ===== MODULAR STYLES ===== */
 
 /* Mobile first queries */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 360px) {
   #logo {
   width: 25%;
   /*height: 4.632em; */
   /* 101.913px */
 }
 body{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.navbar{
-  width: 90%;
-  font-size: 10px;
-  padding: 10px 12px;
-
-}
-
-.navbar a{
-  font-size: 7px;
-}
-
-img{
-  padding-top: 10%;
-  width: 90%;
+  font-size: 0.75em;
 }
   form {
     width: 90%;
   }
   form>label {
-    width: 90%;
+    width: 100%;
     float: none;
   }
   form>fieldset {
-    width: 90%;
+    width: 99%;
     float: none;
   }
   h1 {
@@ -161,10 +173,10 @@ img{
     display: block;
   }
   input[type=email] {
-    width: 90%;
+    width: 100%;
   }
   input[type=text] {
-    width: 90%;
+    width: 100%;
   }
   input[type=radio] {
     width: 15%;
@@ -173,7 +185,7 @@ img{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
     #logo {
   width: 30%;
   /*height: 4.632em; */
@@ -199,7 +211,8 @@ img{
 
 
 
-@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 768px) {
     #logo {
   width: 35%;
   /*height: 4.632em; */
@@ -233,6 +246,45 @@ img{
 
 
 
+@media screen and (min-width: 1024px) {
+    #logo {
+  width: 40%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
+  html {
+    box-sizing: content-box;
+    font-size: 2.8em;
+    /* 38px */
+  }
+  form {
+    margin-left: 0.825em;
+    /* 13.197px */
+    margin-right: 3.821em;
+    /* 61.136px */
+    width: 100%;
+  }
+  form>label {
+    text-align: right;
+    width: 100%
+  }
+  p {
+    width: 100%;
+  }
+  input[type=email] {
+    width: 60%;
+  }
+  input[type=text] {
+    width: 60%;
+  }
+  input[type=radio] {
+    width: 10%;
+  }
+}
+
+
+
+
 @media screen and (min-width: 1200px) {
   #logo {
   width: 40%;
@@ -256,6 +308,9 @@ img{
     width: 100%;
   }
 }
+/* ===== LAYOUT STYLES ====== */
+
+/* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
 
@@ -263,7 +318,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+/* stylelint-enable */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -287,7 +342,7 @@ button, input, optgroup, select {
 }
 textarea{
   border: none;
-  background-color: #BBACC8;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -352,11 +407,23 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-
-
+.btn-group{
+ background-color: #F0EAEA;
+  border: 1px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.btn-group:hover {
+  background-color: orange;
+}
 
 .btn {
-  background-color: #A28DB4;
+  background-color: DodgerBlue;
   border: none;
   color: white;
   padding: 12px 16px;
@@ -364,7 +431,7 @@ img, audio, video {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #BBACC8;
+  background-color: RoyalBlue;
 }
 * {
   box-sizing: border-box;
@@ -412,21 +479,16 @@ img, audio, video {
 
 .navbar {
   overflow: hidden;
-  background-color: #968F9D;
+  background-color: #333;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #DAD6DD;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.navbar a.active {
-  background-color: #A28DB4;
-  color: white;
 }
 
 .dropdown {
@@ -437,8 +499,9 @@ img, audio, video {
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
+  height: 10px;
   outline: none;
-  color: #DAD6DD;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -446,14 +509,13 @@ img, audio, video {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #ddd;
-  color: black;
+  background-color: red;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #968F9D;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -461,7 +523,7 @@ img, audio, video {
 
 .dropdown-content a {
   float: none;
-  color: white;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
