@@ -22,8 +22,6 @@ body {
   padding: 1em;
   /* 22px */
   font-family: 'Molengo', 'Average', sans-serif;
-  background-image: url("1111.jpg");
-
 }
 
 .text{
@@ -65,7 +63,6 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("1111.jpg");
   color: white;
   text-align: left;
   background-color: #cccccc;
