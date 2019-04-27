@@ -506,7 +506,7 @@ img, audio, video {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: gray;
 }
 
 .dropdown-content {
