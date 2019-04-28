@@ -2,7 +2,6 @@
   /*
 GENERAL HTML MAIN DESING
   */
-
 html {
   font-size: 1em;
   /* 22px */
@@ -20,7 +19,6 @@ html {
   /*
 GENERAL BODY MAIN DESING
   */
-
 body {
   margin-left: 1em;
   /* 22px */
@@ -31,22 +29,17 @@ body {
   font-family: 'Molengo', 'Average', sans-serif;
 }
 
-
   /*
 GENERAL IMAGES MAIN DESING
   */
-
 img {
   width: 100%;
   height: auto;
 }
 
-
-
   /*
 DESING FOR OUR TWO COMLUMNS
   */
-
 .column {
   float: right;
   width: 50%;
@@ -66,7 +59,6 @@ DESING FOR OUR TWO COMLUMNS
 
 
 /* DESING FOR H1 AND UL */
-
 h1 {
   font-size: 1.7em;
   /* 36.674px */
@@ -75,50 +67,17 @@ h1 {
   font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
+
+
+/*
+UL DESIGN */
 ul {
   text-align: left;
 }
 
 
 
-
-
-
-.text{
- float: center;
-  font-size: 16px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: left;
-  background-color: #cccccc;
-}
-
-
-
-
-#logo {
-  width: 30%;
-  /*height: 4.632em; */
-  /* 101.913px */
-}
+/* General Paragraph Desgin*/
 p {
   margin-top: 0.6em;
   /* 13.197px */
@@ -128,15 +87,33 @@ p {
   /* 2.849px */
   padding-bottom: 0.129em;
   /* 2.849px */
+    line-height: 1.2em;
 }
+
+
+/* Logo Desgin*/
+#logo {
+  width: 30%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
+
+
+/* Label Desing Desgin*/
+
 label {
   display: inline-block;
   padding-top: 0.297em;
   /* 4.749px */
 }
+
+
+
+/* INput Desgin */
+
 input[type=text] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -146,7 +123,7 @@ input[type=text] {
 }
 input[type=email] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -156,7 +133,7 @@ input[type=email] {
 }
 input[type=password] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -164,6 +141,7 @@ input[type=password] {
   /* 7.917px */
   width: 50%;
 }
+
 input[type=submit] {
   font-family: 'Molengo', 'Average', sans-serif;
   margin-top: 1em;
@@ -174,18 +152,22 @@ input[type=submit] {
   /* 4.749px */
   padding-right: 0.297em;
   /* 4.749px */
-  background-color: #D4B6B6;
+  background-color: gray;
 }
+
 input[type=radio] {
-  background-color: #D4B6B6;
+  background-color:gray;
   width: 10%;
   height: 0.825em;
 }
 
 
-/* Main picture for the home menu. */
+/*Table Design*/
 
-
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 /* Mobile first queries */
 
@@ -196,12 +178,11 @@ input[type=radio] {
   /* 101.913px */
 }
 
-
 body{
   font-size: 1em;
 }
   form {
-    width: 90%;
+    width: 80%;
   }
   form>label {
     width: 100%;
@@ -234,6 +215,7 @@ body{
 
 
 
+/* For Minimum 360 - 767 */
 
 @media screen and (min-width: 360px) and ( max-width: 767px) {
     #logo {
@@ -263,12 +245,13 @@ body{
   input[type=radio] {
     width: 9%;
   }
-  
+  input[type=password] {
+    width: 100%;
+  }
 
 }
 
-
-
+/* For Minimum 768 */
 @media screen and (min-width: 768px) {
     #logo {
   width: 35%;
@@ -276,19 +259,18 @@ body{
   /* 101.913px */
 }
   html {
-    box-sizing: content-box;
-    font-size: 2em;
+    font-size: 1.5em;
     /* 31px */
   }
   form {
     margin-left: 0.825em;
     /* 13.197px */
     margin-right: 3.821em;
-    /* 61.136px */
+    /* 61.136px */ 
     width: 100%;
   }
   form>label {
-    text-align: right;
+    text-align: left;
     width: 100%
   }
   p {
@@ -302,40 +284,79 @@ body{
 
 
 
-
+/* For Minimum 1024 */
 @media screen and (min-width: 1024px) {
     #logo {
-  width: 40%;
+  width: 30%;
   /*height: 4.632em; */
   /* 101.913px */
 }
   html {
     box-sizing: content-box;
-    font-size: 2.8em;
+    font-size: 2em;
     /* 38px */
   }
   form {
     margin-left: 0.825em;
     /* 13.197px */
-    margin-right: 3.821em;
+    margin-right: 1.821em;
     /* 61.136px */
     width: 100%;
   }
   form>label {
-    text-align: right;
+    text-align: left;
     width: 100%
   }
   p {
     width: 100%;
   }
-  input[type=email] {
-    width: 60%;
+    input[type=email] {
+    width: 100%;
   }
   input[type=text] {
-    width: 60%;
+    width: 100%;
   }
     input[type=password] {
-    width: 60%;
+    width: 100%;
+  }
+  input[type=radio] {
+    width: 10%;
+  }
+}
+
+
+
+/* For Minimum 1200 */
+@media screen and (min-width: 1200px) {
+  #logo {
+  width: 60%;
+  /*height: 4.632em; */
+  /* 101.913px */
+}
+  html {
+    box-sizing: content-box;
+    font-size: 1.75em;
+    /* 36.674px */
+  }
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  form>label {
+    text-align: right;
+    /*width: 85%;*/
+  }
+  p {
+    width: 100%;
+  }
+    input[type=email] {
+    width: 100%;
+  }
+  input[type=text] {
+    width: 100%;
+  }
+    input[type=password] {
+    width: 100%;
   }
   input[type=radio] {
     width: 10%;
@@ -345,71 +366,29 @@ body{
 
 
 
-@media screen and (min-width: 1200px) {
-  #logo {
-  width: 40%;
-  /*height: 4.632em; */
-  /* 101.913px */
-}
-  html {
-    box-sizing: content-box;
-    font-size: 2.292em;
-    /* 36.674px */
-  }
-  body {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-  form>label {
-    text-align: right;
-    /*width: 85%;*/
-  }
-  p {
-    width: 100%;
-  }
-}
-/* ===== LAYOUT STYLES ====== */
 
-/* ===== MODULAR STYLES ===== */
 
-/* ===== STATE STYLES ======= */
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/* stylelint-enable */
-
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-
-/* Forms
-   ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
- */
+/* Generic design*/
 
 button, input, optgroup, select {
   font-family: sans-serif;
   /* 1 */
   font-size: 100%;
   /* 1 */
-  line-height: 1.15;
+  line-height: 1.15em;
   /* 1 */
   margin: 10px;
   /* 2 */
 }
 textarea{
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
   margin-bottom: 0.495em;
   /* 7.917px */
   width: 100%;
-
   height: 200px;
 }
 /**
@@ -431,21 +410,49 @@ button, select {
   /* 1 */
   text-transform: none;
 }
-/**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
 
 button, html [type="button"],
 /* 1 */
 
-[type="reset"], [type="submit"] {}
+[type="reset"], [type="submit"] {
+
+}
 img, audio, video {
   display: block;
   max-width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Specific Design*/
 
 .video-responsive{
     overflow:hidden;
@@ -621,27 +628,6 @@ img, audio, video {
 }
 
 
-/**
-Creating the CSS for the Registration Form in the Main Menue
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-*/
-
-
-
 
 /* Overwrite default styles of hr */
 hr {
@@ -675,3 +661,37 @@ a {
   background-color: #f1f1f1;
   text-align: left;
 }
+
+
+
+
+
+.text{
+ float: center;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  background-color: #cccccc;
+}
+
+
+
+
