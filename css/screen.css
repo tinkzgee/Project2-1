@@ -1,38 +1,51 @@
+
+  /*
+GENERAL HTML MAIN DESING
+  */
+
 html {
   font-size: 1em;
   /* 22px */
   line-height: 1em;
   /* 26px / ~ 120% */
-  padding: 1.2em;
+  padding: 1em;
   /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   /*border: solid #F6A740;
   border-width: thick;*/
-  background-image: url("/images/1111.jpg");
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+
+
+  /*
+GENERAL BODY MAIN DESING
+  */
+
 body {
   margin-left: 1em;
   /* 22px */
   margin-right: 1em;
   /* 22px */
-  padding: 2em;
+  padding: 1em;
   /* 22px */
   font-family: 'Molengo', 'Average', sans-serif;
 }
 
-.text{
- float: center;
-  font-size: 16px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+  /*
+GENERAL IMAGES MAIN DESING
+  */
+
+img {
+  width: 100%;
+  height: auto;
 }
 
+
+
+  /*
+DESING FOR OUR TWO COMLUMNS
+  */
 
 .column {
   float: right;
@@ -48,7 +61,40 @@ body {
   height: 300px;
   /* Should be removed. Only for demonstration */
 }
-/* Clear floats after the columns */
+
+
+
+
+/* DESING FOR H1 AND UL */
+
+h1 {
+  font-size: 1.7em;
+  /* 36.674px */
+  line-height: 1.2em;
+  /* 26px */
+  font-family: 'Marcellus SC', Arial, sans-serif;
+}
+
+ul {
+  text-align: left;
+}
+
+
+
+
+
+
+.text{
+ float: center;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
 
 .row:after {
   content: "";
@@ -64,16 +110,10 @@ body {
   text-align: left;
   background-color: #cccccc;
 }
-h1 {
-  font-size: 1.667em;
-  /* 36.674px */
-  line-height: 1.2em;
-  /* 26px */
-  font-family: 'Marcellus SC', Arial, sans-serif;
-}
-ul {
-  text-align: left;
-}
+
+
+
+
 #logo {
   width: 30%;
   /*height: 4.632em; */
@@ -105,6 +145,16 @@ input[type=text] {
   width: 45%;
 }
 input[type=email] {
+  border: none;
+  background-color: #D4B6B6;
+  font-family: 'Molengo', 'Average', sans-serif;
+  padding-left: 0.297em;
+  /* 4.749px */
+  margin-bottom: 0.495em;
+  /* 7.917px */
+  width: 50%;
+}
+input[type=password] {
   border: none;
   background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
@@ -174,6 +224,9 @@ body{
   input[type=text] {
     width: 100%;
   }
+  input[type=password] {
+    width: 100%;
+  }
   input[type=radio] {
     width: 15%;
   }
@@ -210,6 +263,8 @@ body{
   input[type=radio] {
     width: 9%;
   }
+  
+
 }
 
 
@@ -277,6 +332,9 @@ body{
     width: 60%;
   }
   input[type=text] {
+    width: 60%;
+  }
+    input[type=password] {
     width: 60%;
   }
   input[type=radio] {
@@ -565,8 +623,6 @@ img, audio, video {
 
 /**
 Creating the CSS for the Registration Form in the Main Menue
-*/
-
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -582,6 +638,11 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
+*/
+
+
+
+
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
@@ -590,7 +651,7 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color: gray;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -612,5 +673,5 @@ a {
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
-  text-align: center;
+  text-align: left;
 }
