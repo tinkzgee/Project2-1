@@ -544,3 +544,25 @@ img, audio, video {
 
 
 
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 1.1em;
+  text-shadow: .1em .1em .3em rgba(0, 0, 0, 0.6);
+}
+
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
