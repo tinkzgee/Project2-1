@@ -1,5 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
+/* 
    License: none (public domain)
    Author: Mohammad Salahy;
 */
@@ -30,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
 	display: block;
 }
+
+
 html {
 	line-height: 1;
 }
