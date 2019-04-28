@@ -113,7 +113,7 @@ label {
 
 input[type=text] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -123,7 +123,7 @@ input[type=text] {
 }
 input[type=email] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -133,7 +133,7 @@ input[type=email] {
 }
 input[type=password] {
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
@@ -152,11 +152,11 @@ input[type=submit] {
   /* 4.749px */
   padding-right: 0.297em;
   /* 4.749px */
-  background-color: #D4B6B6;
+  background-color: gray;
 }
 
 input[type=radio] {
-  background-color: #D4B6B6;
+  background-color:gray;
   width: 10%;
   height: 0.825em;
 }
@@ -382,7 +382,7 @@ button, input, optgroup, select {
 }
 textarea{
   border: none;
-  background-color: #D4B6B6;
+  background-color: gray;
   font-family: 'Molengo', 'Average', sans-serif;
   padding-left: 0.297em;
   /* 4.749px */
