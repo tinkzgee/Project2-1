@@ -3,7 +3,7 @@
 <head>
   <title>ISUD</title>
   <meta charset="UTF-8">
-  <link href="resetCSS/reset.css" media="screen" rel="stylesheet">
+  <link href="css/reset.css" media="screen" rel="stylesheet">
   <meta content="width=device-width,initial-scale=1.0,shrink-to-fit=no" name="viewport">
   <link href="css/screen.css" media="screen" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
@@ -13,44 +13,50 @@
   </script>
 </head>
 <body>
+  <!-- Navigation bar for the home menu.  -->
   <div class="navbar">
-    <a class="active" href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
+    <a class="active" href="index.html">HOME</a> 
+    <a href="about.html">ABOUT US</a>
     <div class="dropdown">
-    <button class="dropbtn" >NEWS AND EVENTS <i class="fa fa-caret-down"></i> </button>
-    <div class="dropdown-content">
-    <a href="news.html">NEWS</a>
-    <a href="videos.html">VIDEO </a>
-    <a href="food.html">FOOD</a>
-    <a href="2018.html">2018 FESTIVAL </a>
-    <a href="2016.html">2016 FESTIVAL </a>
-    <a href="generaladvice.html">RECOMMENDATIONS</a>
-    <a href="historical.html">HISTORY</a>
-    <a href="pachacamac.html">PACHAMAC</a>
+      <a href="index.html">LEARN MORE</a>
+      <div class="dropdown-content">
+        <a href="videos.html">VIDEO</a> 
+        <a href="food.html">FOOD</a> 
+        <a href="generaladvice.html">RECOMMENDATIONS</a> 
+        <a href="2018.html">2018 FESTIVAL</a>
+      </div>
+    </div><a href="contactus.html">CONTACT US</a>
+  </div><!--  The home picture and menu  -->
+  <div><img alt="home" src="images/1111.jpg"></div><!-- Column to the right.-->
+  <div class="column">
+    <div>
+      <p>Dear participants! You can now find the information regarding HOTELS and other relevant information for your plans to travel to Vienna in this page. You can also find instructions for the payment of the registration and membership fees for you to be able to take care of that before coming to Lima.</p>
     </div>
-  </div> 
-    <a href="contactus.html">CONTACT US </a>
-  </div>
-
-    <img alt="musum" src="images/1.jpg">
-
-    <h2>ISUD XII World Congress</h2>
-    <h3>Weltmuseum Wien</h3>
-    <h4>Vienna, Austria</h4>
-    <p>July 10-15, 2019</p>
-    <p>Dear participants of the ISUD Congress: You can now find the information regarding HOTELS and other relevant information for your plans to travel to Vienna in this You will also find instructions for the payment of the registration and membership fees for you to be able to take care of that before coming to Lima. Should you have any questions at this point, please contact us at spices@gmail.com and we will respond to your queries immediately.</p>
-
+    <div>
+      <form action="/action_page.php">
+        <div class="container">
+          <h1>Register</h1>
+          <p>Register for an account for topics, deadlines, hotel information and more below.</p>
+          <hr>
+          <div style="margin-left: 2em">
+            <label for="firstName"><b>First Name</b></label> <input placeholder="First Name" type="text"> <label for="LastName"><b>Last Name</b></label> <input placeholder="Last Name" type="text"> <label for="email"><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"> <label for="psw"><b>Password</b></label> <input name="psw" placeholder="Enter Password" required="" type="password"> <label for="psw-repeat"><b>Repeat Password</b></label> <input name="psw-repeat" placeholder="Repeat Password" required="" type="password">
+            <hr>
+          </div>
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p><button class="registerbtn" type="submit">Register</button>
+        </div>
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+    </div>
+  </div><!-- Columb to the left.  -->
+  <div class="column1">
+    <h1>The Organizing Committee ISUD XII WORLD CONGRESS</h1>
+    <div><img alt="logo" src="images/logo.jpg"></div>
     <h2>Congress Details</h2>
-    <h4>July 10-15, 2019</h4>
-    <p>Vienna, Austria</p>
-    <p>Find details about the XII 2018 World Congress.</p>
-    <p>All you need to know about topics, registration, deadlines and travel. Email us with any questions to: spices@gmail.com</p>
- 
-  
-
-    <p>Vienna 2019</p><button class="btn">Follow Us On Facebook</button>
-  
-
+    <p>July 10-15, 2019 Vienna, Austria</p>
+    <p>All you need to know about topics, registration, deadlines and travel. Fill the register form or visit the <a href="contactus.html">Contact Us</a> page for questions.</p>
+    <h3>Vienna 2019</h3><img alt="city" src="images/1.jpg"> <a class="registerbtn" href="https://www.facebook.com/ISUDXIIWorldCongress/" target="_blank">Follow Us On Facebook</a>
+  </div>
 </body>
-
 </html>
