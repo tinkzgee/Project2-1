@@ -67,6 +67,7 @@ ul {
 }
 
 ol{
+
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -181,8 +182,14 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
+  .pagecontent {
+  height: 35%;
+  width: 35%;
 
-
+}
+ul{
+  font-size: 0.8em;
+}
   form {
     width: 80%;
   }
@@ -232,6 +239,11 @@ table {
 /* For Minimum 768 */
 
 @media screen and (min-width: 768px) {
+    .pagecontent {
+  height: 45%;
+  width: 45%;
+
+}
 
   .homeimg {
   float: center;
@@ -287,6 +299,11 @@ table {
 /* For Minimum 1024 */
 
 @media screen and (min-width: 1024px) {
+    .pagecontent {
+  height: 50%;
+  width: 50%;
+
+}
 
   .homeimg {
   float: center;
@@ -332,6 +349,9 @@ table {
    p {
     font-size: 1.25em;
  
+  }
+  ul{
+    font-size: 1.20em;
   }
   h1 {
 
