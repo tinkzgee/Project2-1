@@ -61,8 +61,6 @@ UL DESIGN */
 ul {
   text-align: left;
 }
-/* General Paragraph Desgin*/
-
 
 
 /*
@@ -173,9 +171,7 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
-  body {
-    font-size: 1em;
-  }
+
   form {
     width: 80%;
   }
@@ -187,10 +183,24 @@ table {
     width: 99%;
     float: none;
   }
+  p {
+    font-size: 0.8em;
+  }
   h1 {
-    font-size: 1.375em;
+  margin-top: 0;
+  font-size: 1.25em;
     /* 22px */
   }
+  h2 {
+
+  font-size: 1em;
+    /* 22px */
+  }
+  h3 {
+  font-size: 0.9em;
+    /* 39.06px */
+  }
+
   label {
     display: block;
   }
@@ -215,7 +225,7 @@ table {
   .homeimg {
   float: center;
   height: 100px;
-  width: 50%;
+  width: 100%;
   /*height: 4.632em; */
   /* 101.913px */
 }
@@ -225,10 +235,7 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
-  html {
-    font-size: 1.5em;
-    /* 31px */
-  }
+
   form {
     margin-left: 0.825em;
     /* 13.197px */
@@ -240,11 +247,29 @@ table {
     text-align: left;
     width: 100%
   }
-  p {
-    width: 75%;
-  }
+
   input[type=radio] {
     width: 9%;
+  }
+
+  p {
+    font-size: 0.8em;
+
+  }
+  h1 {
+  margin-top: 0;
+  font-size: 1.563em;
+    /* 39px */
+  }
+  h2 {
+
+  font-size: 1.25em;
+    /* 31.25px */
+  }
+
+  h3 {
+  font-size: 1em;
+    /* 39.06px */
   }
 }
 /* For Minimum 1024 */
@@ -264,9 +289,20 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
+  body{
+
+  padding-left: 10%;
+  /* 22px */
+  padding-right: 10%;
+  /* 22px */
+ width: 95%;
+  /* 22px */
+  padding-bottom: 1em;
+  }
+
+
   html {
     box-sizing: content-box;
-    font-size: 2em;
     /* 38px */
   }
   form {
@@ -280,8 +316,23 @@ table {
     text-align: left;
     width: 100%
   }
-  p {
-    width: 100%;
+
+   p {
+    font-size: 1.25em;
+ 
+  }
+  h1 {
+
+  font-size: 1.953em;
+    /* 48.83px */
+  }
+  h2 {
+  font-size: 1.563em;
+    /* 39.06px */
+  }
+  h3 {
+  font-size: 1.35em;
+    /* 39.06px */
   }
   input[type=email] {
     width: 100%;
@@ -510,7 +561,7 @@ img, audio, video {
   text-align: center;
   color: black;
   font-size: 1.1em;
-  text-shadow: .1em .1em .3em rgba(0, 0, 0, 0.6);
+
 }
 .centered {
   position: absolute;
@@ -534,7 +585,7 @@ hr {
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
+
 }
 .registerbtn:hover {
   opacity: 1;
