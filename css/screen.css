@@ -168,7 +168,7 @@ table {
 }
 /* Mobile first queries */
 
-@media screen and (min-width: 360px) and ( max-width: 760px) {
+@media screen and (min-width: 360px) and ( max-width: 600px) {
 
 .navbar a{
   float: none;
