@@ -93,9 +93,7 @@ DESING FOR OUR TWO COMLUMNS
 /* home image Desgin*/
 
 .homeimg {
-  float: center;
-  height: 100px;
-  width: 50%;
+
   /*height: 4.632em; */
   /* 101.913px */
 }
@@ -237,7 +235,7 @@ table {
 
   .homeimg {
   float: center;
-  height: 100px;
+  height: 200%;
   width: 100%;
   /*height: 4.632em; */
   /* 101.913px */
@@ -292,7 +290,7 @@ table {
 
   .homeimg {
   float: center;
-  height: 100px;
+  height: 200%;
   width: 100%;
   /*height: 4.632em; */
   /* 101.913px */
