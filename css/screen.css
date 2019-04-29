@@ -168,7 +168,13 @@ table {
 }
 /* Mobile first queries */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) and ( max-width: 760px) {
+
+.navbar a{
+  float: none;
+  width: 100%;
+
+}
 
   .registerbtn {
   background-color: gray;
@@ -242,6 +248,8 @@ table {
 /* For Minimum 768 */
 
 @media screen and (min-width: 768px) {
+
+
   .pagecontent {
     height: 45%;
     width: 45%;
@@ -293,6 +301,7 @@ table {
 /* For Minimum 1024 */
 
 @media screen and (min-width: 1024px) {
+
   .pagecontent {
     height: 50%;
     width: 50%;
@@ -468,6 +477,8 @@ img, audio, video {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  margin: 0;
+  padding: 0;
 }
 .navbar a {
   float: left;
@@ -477,6 +488,7 @@ img, audio, video {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .navbar a.active {
   background-color: #A28DB4;
   color: white;
