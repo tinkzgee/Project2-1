@@ -59,10 +59,17 @@ h3{
 UL DESIGN */
 
 ul {
+  padding-left: 2em;
+  padding-right: 2em;
+  list-style-type: disc;
   text-align: left;
+  font-size: 1em;
 }
 
-
+ol{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 /*
 DESING FOR OUR TWO COMLUMNS
   */
@@ -172,6 +179,7 @@ table {
     /* 101.913px */
   }
 
+
   form {
     width: 80%;
   }
@@ -235,6 +243,7 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
+
 
   form {
     margin-left: 0.825em;
@@ -447,62 +456,7 @@ img, audio, video {
 * {
   box-sizing: border-box;
 }
-.fb {
-  background: #4661b0;
-  /* make it "Facebook blue" */
-  text-indent: -999em;
-  /* Back the actual text in the paragraph tag out of the element */
-  width: 100px;
-  /* Make it nice and big */
-  height: 110px;
-  /* The tag is 10px larger because of how we're handling the borders below */
-  border-radius: 3px;
-  /* for that oh so important modern look */
-  position: relative;
-  /* so we can position our other elements absolutely */
-  overflow: hidden;
-  /* so we can hide any overflow those elements will have */
-  border: 15px solid #4661b0;
-  /* so we can make it look like the F is not butting up against the right side of the box */
-  border-bottom: 0;
-  /* removing the border here though, because the F does touch the bottom of the box */
-}
-.fb:before {
-  content: "/20";
-  /* Psuedo elements need something for content, this means a blank space */
-  position: absolute;
-  /* So we can position it exactly where we want it */
-  background: #4661b0;
-  /* make the box the same Facebook blue */
-  width: 40px;
-  /* setup the right width, which actually extends the box outside of the containing element (along with our positioning below) */
-  height: 90px;
-  /* this also extends the trunk outside of the main box */
-  bottom: -30px;
-  /* as mentioned above, we pull the box we're using to create the trunk of the F down to hide some of it, because it will have rounded corners on all sides */
-  right: -37px;
-  /* similar to what we're doing with bottom above */
-  border: 20px solid white;
-  /* make the remaining visible border white and thick enough to look right */
-  border-radius: 25px;
-  /* now give the top right visible corner the necessary curve */
-}
-.fb:after {
-  content: "/20";
-  /* again, pseudo elements need content to be visible */
-  position: absolute;
-  /* and we're going to want to position absolutely */
-  width: 55px;
-  /* the desired width of the box to make the bar long enough */
-  top: 50px;
-  /* set it in the proper location */
-  height: 20px;
-  /* make it thick enough */
-  background: white;
-  /* and the right color */
-  right: 5px;
-  /* then back it up from the edge of the containing block a bit */
-}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -578,13 +532,16 @@ hr {
 /* Set a style for the submit button */
 
 .registerbtn {
-  background-color: gray;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+         background-color: gray;
+         border: none;
+         color: white;
+         padding: 16px 24px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         margin: 4px 4px;
+         cursor: pointer;
+
 
 }
 .registerbtn:hover {
@@ -614,11 +571,11 @@ a {
   clear: both;
 }
 .footer {
-  position: fixed;
+  height: 4em;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align: left;
-  background-color: #cccccc;
+  background-color: #AAA4B0;
 }
