@@ -192,6 +192,7 @@ table {
     width: 35%;
   }
   ul {
+    text-align: left;
     font-size: 0.8em;
   }
   form {
