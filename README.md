@@ -1,1 +1,4 @@
-# IsudFinal
+# Final Deliverable
+/* 3-4 sentence critque*/
+For this project myself and Salahy, pulled all the weight. I spent too much time fixing the smallest details up to the pixels of things in the CSS over and over, because it matters. Figuring out how to pull and push from personal fork to master branch and trying to resolve conflicts with group members making different changes was hard. Spending time styling the site only to have your code overwitten by another team member is very fustrating. I learned that Website's appearance matters, even small details with font sizes. I enjoyed spending time fixing the site up when I would refresh and see results. Overall, there was a ton of testing and adjusting to see what's happens if I use float vs alignment or px vs em. I took 361 last year and enjoyed it so i made sure to take 362, I feel way more confident in CSS than I was last year. I also am more knowlegable on how important human's interaction with design is. 
+/* Elizabeth */  
