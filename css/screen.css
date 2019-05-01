@@ -3,24 +3,23 @@ GENERAL HTML MAIN DESING
   */
 
 html {
-  font-size: 16px;
-  padding: 2em;
+  font-size: 1em;
   /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   /*border: solid #F6A740;
   border-width: thick;*/
 }
+
 /*
 GENERAL BODY MAIN DESING
   */
-
 body {
   line-height: 1.45;
   margin-left: 1em;
   /* 22px */
   margin-right: 1em;
   /* 22px */
-  padding: 2em;
+  padding: 1.7em;
   /* 22px */
   padding-bottom: 1em;
   font-family: 'Molengo', 'Average', sans-serif;
@@ -37,8 +36,8 @@ p {
   line-height: 1.2em;
 }
 h1 {
-  margin-top: 0;
-  font-size: 3.052em;
+  margin-top: 0.5em;
+  font-size: 2.052em;
   /* 36.674px */
   line-height: 1.2em;
   /* 26px */
@@ -52,9 +51,9 @@ h2 {
 h3 {
   font-size: 1.953em;
 }
+
 /*
 UL DESIGN */
-
 ul {
   padding-left: 2em;
   padding-right: 2em;
@@ -67,10 +66,11 @@ ol {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+
 /*
 DESING FOR OUR TWO COMLUMNS
   */
-
 .column {
   float: right;
   width: 50%;
@@ -105,7 +105,10 @@ DESING FOR OUR TWO COMLUMNS
   padding-top: 0.2em;
   padding-left: 0.2em;
   height: 55px;
-  width: 8%;
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 label {
   display: inline-block;
@@ -170,14 +173,18 @@ table {
 /* Mobile first queries */
 
 @media screen and (min-width: 360px) and ( max-width: 767px) {
+
+html{
+  padding: 0.1em;
+}
   .navbar a {
     float: none;
     width: 100%;
   }
   .logob {
     padding-top: 0.5em;
-    height: 48px;
-    width: 12%;
+    height: 50px;
+    width: 13%;
     /*height: 4.632em; */
     /* 101.913px */
   }
@@ -254,8 +261,11 @@ table {
   .logob {
     padding-top: 0.5em;
     height: 55px;
-    width: 8%;
+    width: 14%;
   }
+
+
+
   form {
     margin-left: 0.825em;
     /* 13.197px */
@@ -275,7 +285,7 @@ table {
   }
   h1 {
     margin-top: 0;
-    font-size: 1.563em;
+    font-size: 1.4em;
     /* 39px */
   }
   h2 {
@@ -301,21 +311,19 @@ table {
     /*height: 4.632em; */
     /* 101.913px */
   }
-  .logob {
+
+    .logob {
     padding-top: 0.5em;
-    height: 55px;
+    height: 60px;
     width: 8%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
-  body {
-    padding-left: 10%;
-    /* 22px */
-    padding-right: 10%;
-    /* 22px */
-    width: 95%;
-    /* 22px */
-    padding-bottom: 1em;
-  }
+
   html {
+    padding: .4em;
     box-sizing: content-box;
     /* 38px */
   }
@@ -337,7 +345,7 @@ table {
     font-size: 1.20em;
   }
   h1 {
-    font-size: 1.953em;
+    font-size: 1.7em;
     /* 48.83px */
   }
   h2 {
@@ -361,6 +369,26 @@ table {
     width: 10%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Generic design*/
 
 button, input, optgroup, select {
@@ -487,7 +515,7 @@ img, audio, video {
   font-size: 16px;
   border: none;
   height: 20px;
-  outline: none;
+  outline: center;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
@@ -499,32 +527,33 @@ img, audio, video {
 }
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  position: relative;
+  background-color: #A28DB4;
   text-align: center;
 }
 .dropdown-content a {
-  float: none;
+  float: center;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: inline;
   text-align: center;
+  background-color: #A28DB4;
 }
 .dropdown-content a:hover {
   background-color: gray;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: inline;
 }
+
+
 .container {
   position: relative;
   text-align: center;
   color: black;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  text-shadow: .1em .1em .3em rgba(0, 0, 0, 0.6);
 }
 .centered {
   position: absolute;
@@ -532,6 +561,8 @@ img, audio, video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 /* Overwrite default styles of hr */
 
 hr {
@@ -559,6 +590,9 @@ hr {
 a {
   color: dodgerblue;
 }
+
+
+
 /* Set a grey background color and center the text of the "sign in" section */
 
 .signin {
