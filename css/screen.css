@@ -505,11 +505,7 @@ img, audio, video {
   background-color: #A28DB4;
   color: white;
 }
-.dropdown {
-<<<<<<< HEAD
- float: center;
- overflow: center;
-}
+
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -532,7 +528,6 @@ img, audio, video {
   text-align: center;
 }
 .dropdown-content a {
-  float: center;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
