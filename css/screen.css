@@ -508,7 +508,8 @@ img, audio, video {
   color: white;
 }
 .dropdown {
- 
+    float: none;    
+    overflow: none;
 }
 .dropdown .dropbtn {
   font-size: 16px;
@@ -525,6 +526,7 @@ img, audio, video {
   background-color: gray;
 }
 .dropdown-content {
+  float: none;
   display: none;
   position: relative;
   background-color: #A28DB4;
