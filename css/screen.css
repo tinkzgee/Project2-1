@@ -263,9 +263,6 @@ html{
     height: 55px;
     width: 14%;
   }
-
-
-
   form {
     margin-left: 0.825em;
     /* 13.197px */
@@ -296,6 +293,11 @@ html{
     font-size: 1em;
     /* 39.06px */
   }
+
+
+  .centered {
+  font-size: 1.75em;
+}
 }
 /* For Minimum 1024 */
 
@@ -312,7 +314,7 @@ html{
     /* 101.913px */
   }
 
-    .logob {
+  .logob {
     padding-top: 0.5em;
     height: 60px;
     width: 8%;
@@ -368,18 +370,14 @@ html{
   input[type=radio] {
     width: 10%;
   }
+
+
+  .centered {
+  font-size: 2em;
 }
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -508,6 +506,7 @@ img, audio, video {
   color: white;
 }
 .dropdown {
+<<<<<<< HEAD
  float: center;
  overflow: center;
 }
@@ -526,6 +525,7 @@ img, audio, video {
   background-color: gray;
 }
 .dropdown-content {
+  float: none;
   display: none;
   position: relative;
   background-color: #A28DB4;
