@@ -1,1 +1,1 @@
-# IsudFinal
+My final self-critique is located in my MASTER Branch readme file. I did not want to pull the teams final master edits to my master branch because it wouldve added my self-critique in the team's read me. Therefore this branch has the final changes, however my master branch has my self-critique.
