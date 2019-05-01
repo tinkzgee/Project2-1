@@ -68,6 +68,18 @@ ol {
 }
 
 
+
+textarea {
+  border: none;
+  background-color: gray;
+  font-family: 'Molengo', 'Average', sans-serif;
+  padding-left: 0.297em;
+  /* 4.749px */
+  margin-bottom: 0.495em;
+  /* 7.917px */
+  width: 100%;
+  height: 200px;
+}
 /*
 DESING FOR OUR TWO COMLUMNS
   */
@@ -242,6 +254,9 @@ html{
   input[type=radio] {
     width: 15%;
   }
+  textarea{
+    width: 100%;
+  }
 }
 
 /* For Minimum 768 */
@@ -274,8 +289,20 @@ html{
     text-align: left;
     width: 100%
   }
+  input[type=email] {
+    width: 70%;
+  }
+  input[type=text] {
+    width: 70%;
+  }
+  input[type=password] {
+    width: 70%;
+  }
   input[type=radio] {
-    width: 9%;
+    width: 15%;
+  }
+  textarea{
+    width: 70%;
   }
   p {
     font-size: 0.8em;
@@ -293,11 +320,12 @@ html{
     font-size: 1em;
     /* 39.06px */
   }
-
-
   .centered {
   font-size: 1.75em;
 }
+
+
+
 }
 /* For Minimum 1024 */
 
@@ -332,7 +360,7 @@ html{
   form {
     margin-left: 0.825em;
     /* 13.197px */
-    margin-right: 1.821em;
+    margin-right: 3.821em;
     /* 61.136px */
     width: 100%;
   }
@@ -359,20 +387,22 @@ html{
     /* 39.06px */
   }
   input[type=email] {
-    width: 100%;
+    width: 50%;
   }
   input[type=text] {
-    width: 100%;
+    width: 50%;
   }
   input[type=password] {
-    width: 100%;
+    width: 50%;
   }
   input[type=radio] {
-    width: 10%;
+    width: 50%;
   }
+textarea{
+   width: 50%;
+}
 
-
-  .centered {
+.centered {
   font-size: 2em;
 }
 
@@ -399,17 +429,7 @@ button, input, optgroup, select {
   margin: 10px;
   /* 2 */
 }
-textarea {
-  border: none;
-  background-color: gray;
-  font-family: 'Molengo', 'Average', sans-serif;
-  padding-left: 0.297em;
-  /* 4.749px */
-  margin-bottom: 0.495em;
-  /* 7.917px */
-  width: 100%;
-  height: 200px;
-}
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
